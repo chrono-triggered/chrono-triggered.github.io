@@ -7,15 +7,26 @@ html {
 nav {
   background-color: #333;
   overflow: hidden;
+  text-align: center;
+  font-size: 17px;
 }
 
-nav a {
+div {
   float: left;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0;
   text-decoration: none;
-  font-size: 17px;
+  width: 119px;
+}
+
+a:first-child div {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+a:last-child div {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 nav a:hover {
