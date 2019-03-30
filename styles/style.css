@@ -19,12 +19,12 @@ div {
   width: 119px;
 }
 
-nav a:hover {
+nav a:hover div {
   background-color: #ddd;
   color: black;
 }
 
-nav a.active {
+nav a.active div {
   background-color: #4CAF50;
   color: white;
 }
