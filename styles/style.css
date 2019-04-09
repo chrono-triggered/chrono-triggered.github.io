@@ -11,7 +11,7 @@ nav {
   font-size: 17px;
 }
 
-div {
+nav div {
   float: left;
   color: #f2f2f2;
   padding: 14px 0;
@@ -19,12 +19,12 @@ div {
   width: 119px;
 }
 
-a:hover {
+nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-a.active {
+nav a.active {
   background-color: #4CAF50;
   color: white;
 }
