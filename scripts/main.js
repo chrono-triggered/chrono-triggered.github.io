@@ -20,7 +20,7 @@ myButton.onclick = function() {
 }
 
 var myImage = document.querySelector('img');
-var myLink =  document.querySelector('.main_img');
+var myLink =  document.querySelector('.mainimg');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
