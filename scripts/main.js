@@ -20,16 +20,17 @@ myButton.onclick = function() {
 }
 
 var myImage = document.querySelector('img');
+var myLink =  document.querySelector('a.main_img');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
-  var myLink = myImage.getAttribute('class');
+  var url = myLink.getAttribute('class');
   if(mySrc === 'images/images.png') {
     myImage.setAttribute('src', 'images/zoso.png');
-    myLink.setAttribute('class', 'https://en.wikipedia.org/wiki/Led_Zeppelin_IV');
+    url.setAttribute('class', 'https://en.wikipedia.org/wiki/Led_Zeppelin_IV');
   }
   else {
     myImage.setAttribute('src', 'images/images.png');
-    myImage.setAttribute('class', 'https://www.ancient.eu/Yin_and_Yang/');
+    url.setAttribute('class', 'https://www.ancient.eu/Yin_and_Yang/');
   }
 }
