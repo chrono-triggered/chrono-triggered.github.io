@@ -20,17 +20,13 @@ myButton.onclick = function() {
 }
 
 var myImage = document.querySelector('img');
-var myLink =  document.querySelector('.mainimg');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
-  var url = myLink.getAttribute('href');
   if(mySrc === 'images/images.png') {
     myImage.setAttribute('src', 'images/zoso.png');
-    url.setAttribute('href', 'https://en.wikipedia.org/wiki/Led_Zeppelin_IV');
   }
   else {
     myImage.setAttribute('src', 'images/images.png');
-    url.setAttribute('href', 'https://www.ancient.eu/Yin_and_Yang/');
   }
 }
