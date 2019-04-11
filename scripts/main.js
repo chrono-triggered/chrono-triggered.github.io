@@ -24,13 +24,13 @@ var myLink =  document.querySelector('a.main_img');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
-  var url = myLink.getAttribute('class');
+  var url = myLink.getAttribute('href');
   if(mySrc === 'images/images.png') {
     myImage.setAttribute('src', 'images/zoso.png');
-    url.setAttribute('class', 'https://en.wikipedia.org/wiki/Led_Zeppelin_IV');
+    url.setAttribute('href', 'https://en.wikipedia.org/wiki/Led_Zeppelin_IV');
   }
   else {
     myImage.setAttribute('src', 'images/images.png');
-    url.setAttribute('class', 'https://www.ancient.eu/Yin_and_Yang/');
+    url.setAttribute('href', 'https://www.ancient.eu/Yin_and_Yang/');
   }
 }
