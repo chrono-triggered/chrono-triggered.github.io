@@ -2,50 +2,55 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My test page</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   </head>
-  <body>
-    <header>
-      <h1>
-        My Website
-      </h1>
-    </header>
-    <nav class="topnav">
-      <ul>
-        <li><a class="active">Home</a></li>
-        <li><a href="page1.html">Page 1</a></li>
-        <li><a href="page2.html">Page 2</a></li>
-      </ul>
-      <form class="searchbar" action="index.html" method="post">
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-      </form>
-    </nav>
-    <main>
-      <img src="images/images.png" alt="My test image"/>
-      <p>
-        This is a website that uses my skills in html, css and javascript.
-        I also plan on adding server side applications and making the Website
-        more dynamic. Currently this website uses:
-      </p>
-      <ul>
-        <li><a href="https://html.com/" target="_blank">html</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">css</a></li>
-        <li><a href="https://www.javascript.com/" target="_blank">javascript</a></li>
-      </ul>
-      <button>Change User</button>
-      <aside class="sidebar">
-        <h2>Other skills I have/want to learn</h2>
-        <ul>
-          <li>C++</li>
-          <li>C#</li>
-          <li>Java</li>
-          <li>Python</li>
+  <body class="mainbody">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="page1.html">Page 1</a></li>
+          <li><a href="page2.html">Page 2</a></li>
         </ul>
-      </aside>
-    </main>
+      </div>
+    </nav>
+    
+    <div class="maincontent">
+      <header>
+        <h1>
+          My Website
+        </h1>
+        <img src="images/images.png" alt="My test image"/>
+      </header>
+
+      <main>
+
+        <p>
+          This is a website that uses my skills in html, css and javascript.
+          I also plan on adding server side applications and making the Website
+          more dynamic. Currently this website uses:
+        </p>
+        <ul>
+          <li><a href="https://html.com/" target="_blank">html</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">css</a></li>
+          <li><a href="https://www.javascript.com/" target="_blank">javascript</a></li>
+        </ul>
+        <button>Change User</button>
+        <aside class="sidebar">
+          <h2>Other skills I have/want to learn</h2>
+          <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </aside>
+      </main>
+    </div>
     <footer>
       <p>Copyright 2099 by nobody. All rights reserved (always wanted to use one of these)</p>
     </footer>

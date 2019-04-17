@@ -4,30 +4,33 @@ html {
   background-color: #00539F;
 }
 
-.topnav {
-  background-color: #333;
+.navbar {
   overflow: hidden;
   text-align: center;
   font-size: 17px;
   width: 100%;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   color: #f2f2f2;
-  padding: 14px 0;
+  padding: 0;
   text-decoration: none;
   width: 119px;
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+.navbar a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.navbar li {
+    padding: 0;
 }
 
 h1 {
@@ -39,21 +42,45 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-body {
-  width: 600px;
+.mainbody {
+  background-color: turquoise;
   margin: 0 auto;
-  background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
 
+.maincontent {
+  background-image: url(../images/headerBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-left: 25px;
+  margin-top: auto;
+  color: turquoise;
+}
+
+li a {
+  color: turquoise;
+  padding-left: 25px;
+}
+
+h2 {
+  color: turquoise;
+  padding-left: 25px;
+}
+
+button {
+  margin-right: 25px;
 }
